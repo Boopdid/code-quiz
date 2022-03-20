@@ -6,7 +6,44 @@ section {
   display: block;
   justify-content: center;
   text-align: center;
+  max-width: 80%;
+  margin: auto;
 }
+
+ul {
+  list-style-type: none;
+  max-width: 40%;
+  margin: 0 auto 20px auto;
+}
+
+li {
+  background-color: darkgrey;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+button {
+  background-color: rgb(255, 174, 0);
+  border: none;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: rgb(223, 147, 0);
+  cursor: pointer;
+}
+
 .hidden {
   display: none;
+}
+
+header {
+  display: flex;
+}
+
+#time {
+  flex-grow: 1;
+  padding-right: 10px;
+  text-align: right;
 }

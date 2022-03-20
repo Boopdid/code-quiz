@@ -7,6 +7,13 @@ startQuiz.addEventListener("click", function () {
   console.log("Ouch");
 });
 
+var selectedAnswer = document.querySelectorAll(".answer");
+selectedAnswer.forEach(function (answer) {
+  answer.addEventListener("click", function () {
+    console.log("You selected an answer.");
+  });
+});
+
 //timer
 
 //event listener
